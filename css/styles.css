@@ -50,7 +50,7 @@ ul li a {
   transition: background 0.2s;
 }
 ul li a:hover {
-  border: 1.5px solid #FFF;
+  border: 1.5px solid #fff;
   background: rgba(255, 255, 255, 0.05);
 }
 
