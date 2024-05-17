@@ -2,21 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #ffffff;
 }
 
 body {
   background: url(/assets/bg-mobile.jpg) no-repeat top center/cover;
   font-family: "Inter", sans-serif;
-  color: #ffffff;
 }
 
 .container {
   margin: 0 auto;
   width: 360px;
-  border: 1px solid red;
+  margin: 56px auto 0px;
+  padding: 0 24px;
 }
 .container .profile {
   text-align: center;
+  padding: 24px;
 }
 .container .profile img {
   width: 112px;
@@ -24,6 +26,57 @@ body {
 .container .profile p {
   font-weight: 500;
   line-height: 24px;
+  margin-top: 8px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0px;
+}
+ul li a {
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+ul li a:hover {
+  border: 1.5px solid #FFF;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  padding: 24px;
+}
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  transition: background 0.2s;
+  border-radius: 50%;
+}
+.social-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+footer {
+  padding: 24px 0px;
+  text-align: center;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=styles.css.map */
