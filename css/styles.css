@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #050404f5;
+  background: url(/img/bg-mobile.jpg);
   font-family: "Inter", sans-serif;
 }
 
@@ -50,7 +50,7 @@ ul li a {
   transition: background 0.2s;
 }
 ul li a:hover {
-  border: 1.5px solid #fff;
+  border: 1.5px solid #FFF;
   background: rgba(255, 255, 255, 0.05);
 }
 
