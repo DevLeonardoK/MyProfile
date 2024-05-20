@@ -1,5 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
 body {
-  background: url(img/bg-mobile.jpg);
+  background: url(../img/bg-mobile.jpg);
   font-family: "Inter", sans-serif;
 }
 
@@ -43,7 +50,7 @@ ul li a {
   transition: background 0.2s;
 }
 ul li a:hover {
-  border: 1.5px solid #fff;
+  border: 1.5px solid #FFF;
   background: rgba(255, 255, 255, 0.05);
 }
 
@@ -67,10 +74,9 @@ ul li a:hover {
 }
 
 footer {
-  padding: 23px 0px;
+  padding: 24px 0px;
   text-align: center;
   font-size: 14px;
 }
-
 
 /*# sourceMappingURL=styles.css.map */
