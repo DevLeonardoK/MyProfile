@@ -22,4 +22,5 @@ function togglemode() {
   } else {
     img.setAttribute("src", "../img/avatar-dark.png");
   }
+  //validação troca da img
 }
