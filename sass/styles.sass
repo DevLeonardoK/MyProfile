@@ -78,6 +78,9 @@ body
             top: 50%
             left: 0
             transform: translateY(-50%)
+            animation: slide-out 0.2s forwards
+            &:hover
+                outline: 8px solid var(--highlight-color)
                 
         span
             display: block
@@ -91,9 +94,9 @@ body
 .light
     .switch
         button
-            right: 0
-            left: initial //left volta para sua posição inicial
-    
+            animation: slide-in 0.2s forwards  //forwards == quando chegar no final, manter as propriedades da animação
+
+
 //links
 
 ul
@@ -154,6 +157,19 @@ footer
     .light
         --bg-url:url(../img/bg-desktop-light.jpg)
        
+@keyframes slide-in
+    from 
+        left: 0
+    to 
+        left: 50%
+
+@keyframes slide-out
+    from 
+        left: 50%
+    to 
+        left: 0
+
+        
 
     
 
