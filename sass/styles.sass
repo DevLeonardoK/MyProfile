@@ -35,6 +35,7 @@ body
 
     //background: color image repeat position / size ===> Jeito encurtado / shorthand
     background: var(--bg-url) no-repeat top center/cover
+    height: 100vh 
     font-family: "Inter", sans-serif
     
 
@@ -42,7 +43,8 @@ body
     
 .container
     margin: 0 auto //
-    width: 360px
+    width: 100% //Sempre 100% até que ele alcance 588px
+    max-width: 588px
     //height: 712px == A altura deve ser fluída, o conjunto de elementos define a altura final.
     margin: 56px auto 0px //top, right, bottom, left
     padding: 0 24px
@@ -142,6 +144,19 @@ footer
     padding: 24px 0px
     text-align: center
     font-size: 14px
+
+//media (atrule)
+@media (min-width: 700px )
+    :root
+        --bg-url: url(../img/bg-desktop.jpg)
+
+
+    .light
+        --bg-url:url(../img/bg-desktop-light.jpg)
+       
+
+    
+
     
         
 
