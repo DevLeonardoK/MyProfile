@@ -18,9 +18,9 @@ function togglemode() {
   //img
   const img = document.querySelector(".profile img");
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "../img/avatar.png");
+    img.setAttribute("src", "./img/avatar.png");
   } else {
-    img.setAttribute("src", "../img/avatar-dark.png");
+    img.setAttribute("src", "./img/avatar-dark.png");
   }
   //validação troca da img
 }
