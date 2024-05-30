@@ -27,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O MyProfile é um coletor de links para ser utilizado como um cartão de visita digital.
 
-- [Acesse o projeto finalizado, online](https://devleonardok.github.io/MyProfile/)
+- [Acesse o projeto concluído, disponível online.](https://devleonardok.github.io/MyProfile/)
 
 ---
 
