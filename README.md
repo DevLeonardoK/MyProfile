@@ -5,7 +5,12 @@
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
 <br>
@@ -30,5 +35,9 @@ O MyProfile é um coletor de links para ser utilizado como um cartão de visita 
 - [Acesse o projeto concluído, disponível online.](https://devleonardok.github.io/MyProfile/)
 
 ---
+
+## ✅ Licença
+
+Esse projeto está sob a licença MIT.
 
 <p align=center>Feito by DevLeonardoK</p>
